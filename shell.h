@@ -29,6 +29,14 @@
 
 extern char **environ;
 
+/**
+ * struct liststr - Short description
+ * @num: First member
+ * @str: Second member
+ * @next: Third member
+ *
+ * Description: Longer description
+ */
 typedef struct liststr
 {
 	int num;
@@ -36,6 +44,29 @@ typedef struct liststr
 	struct liststr *next;
 } list_t;
 
+/**
+ * struct passinfo - Short description
+ * @arg: First member
+ * @argv: Second member
+ * @path: Third member
+ * @argc: Member
+ * @line_count: Member
+ * @err_num: Member
+ * @linecount_flag: Member
+ * @fname: Member
+ * @env: Member
+ * @history: Member
+ * @alias: Member
+ * @environ: Member
+ * @env_changed: Member
+ * @status: Member
+ * @cmd_buf: Member
+ * @cmd_buf_type: Member
+ * @readfd: Member
+ * @histcount: Member
+ *
+ * Description: Longer description
+ */
 typedef struct passinfo
 {
 	char *arg;
